@@ -67,6 +67,8 @@ public class week04Project {
 		System.out.println("11: " + firstArrayGreater(arrayOne, arrayTwo));
 		//12: Prints out the method willBuyDrink
 		System.out.println("12: " + willBuyDrink(true, 10.51));
+		//13:
+		feedCats(2, true);
 
 	}
 	//7:This method takes a string and a number and returns the word appended to itself that many number of times.
@@ -125,6 +127,15 @@ public class week04Project {
 			return true;
 		}else 
 			return false;
+	}
+	//13: This method takes in an int for the amount of times the cats have been fed today and a boolean to check if the time is after 5pm.
+	// I created this method so i can easily remind myself if my cats need to be fed or if i have already fed the cats more than once today
+	public static void feedCats(int timesFedToday, boolean after5) {
+		if((timesFedToday < 2) && (after5)) {
+			System.out.println("Time to feed the Cats");
+		}else
+			System.out.println("The Cats have been fed");
+		
 	}
 }
 

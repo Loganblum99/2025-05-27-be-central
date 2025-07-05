@@ -59,7 +59,7 @@ public class week04Project {
 		int[] test = {50, 1, 1, 1};
 		System.out.println("9: " + over100(test));
 		//10: Prints out the method average using the array test2.
-		double[] test2 = {50, 20.3, 2, 77.4};
+		double[] test2 = {50, 20.3, 27, 77.4};
 		System.out.println("10: " + average(test2));
 		//11: Prints out the method firstArrayGreater
 		double[] arrayOne = {1, 2, 3, 4, 5};
@@ -68,7 +68,7 @@ public class week04Project {
 		//12: Prints out the method willBuyDrink
 		System.out.println("12: " + willBuyDrink(true, 10.51));
 		//13:
-		feedCats(2, true);
+		feedCats(1, true);
 
 	}
 	//7:This method takes a string and a number and returns the word appended to itself that many number of times.
